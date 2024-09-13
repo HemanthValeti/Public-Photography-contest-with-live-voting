@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EYES OF PHOTOGRAPHERS</title>
+    <link rel="icon" type="image/x-icon" href="D:\eyesofphotogrpher\titileimg.png">
+    <link href="details.css" rel="stylesheet">
+    <script src="details.js" defer></script>
+  </head>
+  <body>
+    <div class="aboutus">
+      <a href="file:///D:/eyesofphotogrpher/main.html#">Home</a>
+      <a href="file:///D:/eyesofphotogrpher/categories/category.html">Category</a>
+      <a href="file:///D:/eyesofphotogrpher/winners/wins.html">Winners</a>
+      <a style="color: rgb(255, 0, 0);">Apply</a>
+      <a href="file:///D:/eyesofphotogrpher/aboutus.html">About us</a>
+      <a href="file:///D:/eyesofphotogrpher/contactus.html">Contact us</a>
+      </div>
+    <div class="imae">
+        <a href="file:///D:/eyesofphotogrpher/main.html"><img src="D:\eyesofphotogrpher\logo.png" alt="" width="9%"></a>
+    </div>
+    <form>
+        <div>
+          <label for="title">Name</label>
+          <input id="title" type="text" required>
+        </div>
+        <div>
+          <label for="body">Gmail</label>
+          <input type="email" id="body" name="email" autocomplete="off" required>
+        </div>
+        <div>
+        <button onclick="addTask()">Submit</button>
+        <script>
+            function addTask(){
+              if(body.value === ""){
+                alert("You have to give your details first !")
+              }
+              else{
+                window.location.assign("file:///D:/eyesofphotogrpher/apply/upload.html");
+              }
+            }
+          </script>
+        </div>
+    </form>
+    <div class="rules">
+      <a href="file:///D:/eyesofphotogrpher/rules.html">Rules for contest</a>
+  </div>
+  </body>
+</html>

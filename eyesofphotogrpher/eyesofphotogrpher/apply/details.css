@@ -1,0 +1,69 @@
+*{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+body{ 
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1528158222524-d4d912d2e208?q=80&w=2280&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutus{
+  padding-left: 50%;
+  padding-top: 4%;
+}
+.aboutus a{
+  padding: 2px 25px;
+  font-weight: 600;
+}
+.aboutus a:hover{
+  color: #ff0000;
+  transition: 0.5s;
+}
+.imae{
+  margin-top: -6%;
+  padding-left: 4%;
+}
+form{
+  padding-top: 18%;
+  padding-left: 39%;
+  line-height: 30px;
+  width: 9%;
+}
+main{
+  padding-top: 2%;
+  padding-left: 57%;
+  line-height: 30px;
+  width: 19%;
+}
+input{
+      width: 234%;
+    padding: 9px 12px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+}
+button{
+  background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 33px;
+    cursor: pointer;
+    margin: 14%;
+}
+button:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border:  solid 2px rgb(255, 0, 0);
+}
+.rules{
+  padding-left: 5%;
+  margin-top: 5%;
+}
+.rules a:hover{
+  color: #ff0000;
+  text-decoration: underline;
+}

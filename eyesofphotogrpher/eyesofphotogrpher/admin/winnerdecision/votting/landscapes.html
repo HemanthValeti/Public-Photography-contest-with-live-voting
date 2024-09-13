@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PAGE</title>
+    <link rel="icon" type="image/x-icon" href="D:\eyesofphotogrpher\titileimgW.png">
+    <script src="landscapes.js"></script>
+    <link rel="stylesheet" href="votting.css">
+    <style>
+        *{
+            text-decoration: none;
+            color: black;
+            list-style: none;
+        }
+        ul{
+            position: absolute;
+            left: -2%;
+            top: 15%;
+            font-size: larger;
+            line-height: 38px;
+            text-decoration: underline;
+        }
+        .container{
+            width: 45%;
+            padding-top: 5%;
+            padding-left: 36%;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="col-md-6">
+        <h1>Votting of landscapes</h1>
+    </div>
+    <button onclick="clearLocalStorage()">Clear the votes</button>
+    <ul>
+        <li>
+            <a style="text-decoration: line-through;">Land scapes</a><br>
+            <a href="file:///D:/eyesofphotogrpher/admin/winnerdecision/votting/wildlife.html">Wild life</a><br>
+            <a href="file:///D:/eyesofphotogrpher/admin/winnerdecision/votting/underwater.html">Under water</a>
+            <p><br><br><a href="file:///D:/eyesofphotogrpher/admin/winnerdecision/winnerdecision.html">HOME</a></p>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1683830138321-a6e8466498e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i>
+            <div id="result1"></div>
+        </div>
+        <div class="image1">
+            <img src="https://images.unsplash.com/photo-1632163378547-0c55491c8c1d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i>
+            <div id="result2"></div>
+        </div>
+        <div class="image2">
+            <img src="https://images.unsplash.com/photo-1612179124106-8df97d6cafe1?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i><div id="result3"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="image3">
+            <img src="https://images.unsplash.com/photo-1437652010333-fbf2cd02a4f8?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i><div id="result4"></div>
+        </div>
+        <div class="image4">
+            <img src="https://images.unsplash.com/photo-1454982523318-4b6396f39d3a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i><div id="result5"></div>
+        </div>
+        <div class="image5">
+            <img src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i><div id="result6"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="image6">
+            <img src="https://images.unsplash.com/photo-1612179124305-c0f4339281dd?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i><div id="result7"></div>
+        </div>
+        <div class="image7">
+            <img src="https://images.unsplash.com/photo-1612179124867-05493316e590?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i><div id="result8"></div>
+        </div>
+        <div class="image8">
+            <img src="https://images.unsplash.com/photo-1632163311257-3bea2713d821?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="95%"></a>
+            <i class="fa-solid fa-heart"></i><div id="result9"></div>
+        </div>
+    </div>
+</body>
+</html>

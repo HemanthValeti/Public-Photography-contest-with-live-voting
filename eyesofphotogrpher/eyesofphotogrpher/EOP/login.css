@@ -1,0 +1,107 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #000000;
+}
+span{
+    padding-top: 45%;
+    padding-left: 15%;
+}
+.box {
+    height: 95vh;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #000000;
+}
+.box a:hover{
+    background-color: #fe0606;
+}
+p {
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.box a {
+    color: aliceblue;
+    display: inline-block;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 47px;
+}
+
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(254, 126, 126, 0);
+    transition: all 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.content {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 18%;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+.content a:hover{
+    color: rgb(255, 0, 0);
+}
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #fe0606;
+    text-decoration: none;
+    font-size: 30px;
+}
+.announcement{
+    position: absolute;
+    left: 9%;
+    font-size: 129%;
+    padding-top: 6%;
+}
+input{
+    width: 91%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.055);
+    padding: 12px;
+    font-size: medium;
+    margin-bottom: 9%;
+}
+button{
+    width: 100%;
+    background: rgb(255, 0, 0);
+    COLOR: WHITE;
+    padding: 5% 1%;
+    border: solid 2px rgb(255, 0, 0);
+    margin-top: 12%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-container {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 33px;
+    margin: 50px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

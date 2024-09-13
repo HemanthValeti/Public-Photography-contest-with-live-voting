@@ -1,0 +1,52 @@
+*{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1619644862264-5395db5d92d9?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.down{  
+    margin-top: -1%;
+    padding-left: 4%;
+}
+.aboutus{
+    padding-left: 50%;
+    margin-top: -49px;
+}
+.aboutus a{
+    padding: 2px 25px;
+    font-weight: 600;
+}
+.aboutus a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5;
+}
+.title{
+    padding-top: 5%;
+    padding-left: 12%;
+}
+.winnerimg{
+    padding-top: 5%;
+    padding-left: 33%;
+    list-style: none;
+}
+.more{
+    position: absolute;
+    top: 22%;
+    left: 87.5%;
+    font-size: 14px;
+}
+.more a:hover{
+    text-decoration: underline;
+}
+.todoss{
+    position: relative;
+    display: flex;
+    width: 126%;
+    padding-top: 5%;
+    left: -34%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="D:\eyesofphotogrpher\titileimgW.png">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("tWPZOLtz3AjMhQqT-");
+        })();
+    </script>
+    <script src="winnermail.js" defer></script>
+    <style>
+        body{
+            padding-left: 45%;
+            padding-top: 24%;
+        }
+        button{
+            padding: 1% 26px;
+            margin: 4%;
+        }
+        input{
+            width: 31%;
+            position: relative;
+            left: -7%;
+            outline: none;
+            padding: 1% 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container border mt-3 bg-light">
+        <h1>Winner mail</h1>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" />
+            </div>
+            <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

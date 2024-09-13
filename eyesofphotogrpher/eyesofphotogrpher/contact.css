@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1572916154935-1d0c494dedb6?q=80&w=2254&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+.BUSINESS{
+    padding-top: 3%;
+    padding-left: 16%;
+}
+
+.aboutus{
+    padding-left: 50%;
+    padding-top: 4%;
+}
+.aboutus a{
+    padding: 2px 25px;
+    font-weight: 600;
+}
+.aboutus a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.matter2{
+    font-size: x-large;
+    padding-left: 8%;
+    padding-top: 6%;
+}
+.number{
+    font-size: medium;
+    padding-left: 8%;
+    padding-top: 3%;
+}
+.number a:hover {
+    color: #ff0000;
+    font-weight: 600;
+    font-size : large;
+}
+.matter{
+    color: white;
+    font-size: medium;
+    padding-top: 3%;
+    padding-left: 8%;
+}
+.mailid{
+    font-size: medium;
+    padding-left: 8%;
+}
+.mailid :hover{
+   
+    color: #ff0000;
+    font-weight: 600;
+    font-size : large;
+}
+.bg{
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 76px 0% -27px;
+    position: fixed;
+}
+
+@media (max-width : 1420px) {
+    .aboutus{
+        color: white;
+        width: 54%;
+        font-size: 100%;
+        text-align: end;
+        list-style: none;
+        display: grid;
+        position: relative;
+        left: -5%;
+    }
+    .aboutus a:hover{
+        color: #ffffff;
+        font-size: larger;
+    }
+    .down{
+        font-size: x-small;
+        margin-left: 72%;
+    }
+}
+@media(max-width : 1420px){
+    body{
+        background-image: url("https://images.unsplash.com/photo-1498889444388-e67ea62c464b?q=80&w=2130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-color: #000000
+    }
+}

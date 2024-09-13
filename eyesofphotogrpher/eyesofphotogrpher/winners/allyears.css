@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  text-decoration: none;
+} 
+body{
+  background-image: url("");
+    background-size: cover;
+    border: #000000;
+}
+.aboutus{
+  MARGIN-left: 48%;
+  margin-top: -4%;
+}
+.aboutus a{
+    padding: 2px 25px;
+    font-weight: 600;
+}
+.aboutus a:hover{
+    color: rgb(255, 0, 0);
+    transition: 1s;
+}
+.down{  
+  MARGIN-left: 3%;
+  margin-top: 1%;
+}
+.title{
+  padding-left: 37%;
+  font-size: xx-large;
+  font-weight: 600;
+  margin-top: -2%;
+}
+.winnings{
+  margin-top: 9%;
+  padding-left: 2%;
+  display: flex;
+}
+.win1{
+  width: 38.33%;
+  margin: -117px;
+  position: relative;
+  padding-top: 5%;
+  left: 27%;
+}
+.sidehead a{
+  list-style: none;
+    display: flex;
+    line-height: 477%;
+    margin-bottom: 1%;
+    font-size: x-large;
+    padding-top: 21%;
+    font-weight: 600;
+    padding-left: 103%;
+}
+.list{
+  padding-top: 0%;
+  display: flex;
+}
+
+@media (max-width : 1334px){
+  .title{
+    font-size: unset;
+    padding-top: 22%;
+    margin-left: 4%;
+  }
+  .winnings{
+    margin-top: -160%;
+    display: inline-block;
+    width: 245%;
+    margin-left: -42%;
+  }
+  .list{
+      text-align: center;
+      padding-top: 16%;
+      display: list-item;
+  }
+  .sidehead{
+    margin-left: 45%;
+  }
+  h1{
+    opacity: 100%;
+    padding-top: 20%;
+  }
+}
